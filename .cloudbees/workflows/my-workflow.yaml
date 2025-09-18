@@ -11,7 +11,7 @@ permissions:
   scm-token-org: read
   id-token: write
 jobs:
-  njs-scan:
+  njsscan-hybrid-scan:
     steps:
       - name: checkout Source Code
         uses: cloudbees-io/checkout@v1
