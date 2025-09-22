@@ -15,5 +15,5 @@ jobs:
     steps:
       - name: checkout Source Code
         uses: cloudbees-io/checkout@v1
-      - name: Scan with njsscan SAST scanner
+      - name: njsscan hybrid plugin scan
         uses: cloudbees-io/njsscan-hybrid-plugin@v1
